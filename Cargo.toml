@@ -6,3 +6,6 @@ authors = ["Tonny Staunsbrink <tonny.staunsbrink@skyscanner.net>"]
 [dependencies]
 clap = "2.32.0"
 
+[profile.release]
+lto = true
+

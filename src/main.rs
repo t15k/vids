@@ -30,8 +30,6 @@ fn main() {
                 }
                 
             }
-            // 
-            println!("{}", filename);
         },
         None => ()
     }
